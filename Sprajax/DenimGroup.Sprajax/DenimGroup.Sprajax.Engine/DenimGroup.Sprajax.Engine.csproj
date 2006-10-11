@@ -1,0 +1,72 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63834CC9-D98A-4C14-948F-7061D7C39ED1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DenimGroup.Sprajax.Engine</RootNamespace>
+    <AssemblyName>DenimGroup.Sprajax.Engine</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Spider.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\csspider\bin\Debug\Spider.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Thinktecture.Tools.Web.Services.DynamicProxy, Version=1.5.0.4321, Culture=neutral, PublicKeyToken=71f29a0be6981cd8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DWSL1.5_DotNET20\Thinktecture.Tools.Web.Services.DynamicProxy\bin\Debug\Thinktecture.Tools.Web.Services.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Thinktecture.Tools.Web.Services.Extensions.Messages, Version=1.1.0.4321, Culture=neutral, PublicKeyToken=71f29a0be6981cd8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DWSL1.5_DotNET20\Thinktecture.Tools.Web.Services.DynamicProxy\bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrameworkDetection.cs" />
+    <Compile Include="Listeners\AtlasListener.cs" />
+    <Compile Include="Listeners\GoogleWebToolkitListener.cs" />
+    <Compile Include="MethodTracker.cs" />
+    <Compile Include="Model\Framework.cs" />
+    <Compile Include="Model\Method.cs" />
+    <Compile Include="Model\Parameter.cs" />
+    <Compile Include="Model\WebService.cs" />
+    <Compile Include="Model\WebServiceCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SprajaxSession.cs" />
+    <Compile Include="SprajaxSessionEventListener.cs" />
+    <Compile Include="WebServiceCallListener.cs" />
+    <Compile Include="WebServicesEnumerator.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

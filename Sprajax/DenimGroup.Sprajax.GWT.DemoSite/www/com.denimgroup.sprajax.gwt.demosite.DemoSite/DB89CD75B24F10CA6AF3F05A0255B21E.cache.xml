@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache-entry>
+	<generated-type-hash class="com.google.gwt.user.client.rpc.SerializableException_FieldSerializer" hash="2BAB402B7C7DAC578FEEBEB437AA4176"/>
+	<generated-type-hash class="com.denimgroup.sprajax.gwt.demosite.client.TestDBService_TypeSerializer" hash="C50DF7D4FB7E2139F5F3620E51ABC64C"/>
+	<generated-type-hash class="com.denimgroup.sprajax.gwt.demosite.client.TestDBService_Proxy" hash="F23503AFCC325EA2AA8CE063B510B3FC"/>
+	<rebind-decision in="com.google.gwt.user.client.ui.impl.TextBoxImpl" out="com.google.gwt.user.client.ui.impl.TextBoxImplIE6"/>
+	<rebind-decision in="com.denimgroup.sprajax.gwt.demosite.client.TestDBService" out="com.denimgroup.sprajax.gwt.demosite.client.TestDBService_Proxy"/>
+	<rebind-decision in="com.denimgroup.sprajax.gwt.demosite.client.DemoSite" out="com.denimgroup.sprajax.gwt.demosite.client.DemoSite"/>
+	<rebind-decision in="com.google.gwt.user.client.impl.HTTPRequestImpl" out="com.google.gwt.user.client.impl.HTTPRequestImplIE6"/>
+	<rebind-decision in="com.google.gwt.user.client.impl.DOMImpl" out="com.google.gwt.user.client.impl.DOMImplIE6"/>
+</cache-entry>

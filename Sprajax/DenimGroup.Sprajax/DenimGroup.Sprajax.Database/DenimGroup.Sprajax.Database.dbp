@@ -1,0 +1,20 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "DenimGroup.Sprajax.Database"
+   MSDTVersion = "80"
+   DefDBRef = "dancolaptop.sprajax.dbo"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "CreateSprocs.SQL"
+      Script = "CreateTables.SQL"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "dancolaptop.sprajax.dbo"
+         ConnectStr = "Data Source=(local);Initial Catalog=sprajax;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

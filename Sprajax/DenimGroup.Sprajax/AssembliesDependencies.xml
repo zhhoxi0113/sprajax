@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssemblyDependencies>
+  <Dependencies_For Assembly="DenimGroup.Sprajax.Engine">
+    <DependsOn>
+      <DependsOn_Name>Spider.Engine</DependsOn_Name>
+      <DependsOn_Name>Thinktecture.Tools.Web.Services.DynamicProxy</DependsOn_Name>
+      <DependsOn_Name>Thinktecture.Tools.Web.Services.Extensions.Messages</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>DenimGroup.Sprajax.Main</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Thinktecture.Tools.Web.Services.Extensions.Messages">
+    <ReferencedBy>
+      <ReferencedBy_Name>DenimGroup.Sprajax.Engine</ReferencedBy_Name>
+      <ReferencedBy_Name>Thinktecture.Tools.Web.Services.DynamicProxy</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Thinktecture.Tools.Web.Services.DynamicProxy">
+    <DependsOn>
+      <DependsOn_Name>Thinktecture.Tools.Web.Services.Extensions.Messages</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>DenimGroup.Sprajax.Engine</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Spider.Engine">
+    <ReferencedBy>
+      <ReferencedBy_Name>DenimGroup.Sprajax.Engine</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="DenimGroup.Sprajax.Main.vshost" />
+  <Dependencies_For Assembly="DenimGroup.Sprajax.Main">
+    <DependsOn>
+      <DependsOn_Name>DenimGroup.Sprajax.Engine</DependsOn_Name>
+    </DependsOn>
+  </Dependencies_For>
+</AssemblyDependencies>

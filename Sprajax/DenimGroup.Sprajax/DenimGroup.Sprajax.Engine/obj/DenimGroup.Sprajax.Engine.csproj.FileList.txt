@@ -1,0 +1,11 @@
+bin\Debug\DenimGroup.Sprajax.Engine.dll
+bin\Debug\DenimGroup.Sprajax.Engine.pdb
+bin\Debug\Spider.Engine.dll
+bin\Debug\Thinktecture.Tools.Web.Services.DynamicProxy.pdb
+bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.pdb
+bin\Debug\Spider.Engine.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DenimGroup.Sprajax.Engine.dll
+obj\Debug\DenimGroup.Sprajax.Engine.pdb
+bin\Debug\Thinktecture.Tools.Web.Services.DynamicProxy.dll
+bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.dll

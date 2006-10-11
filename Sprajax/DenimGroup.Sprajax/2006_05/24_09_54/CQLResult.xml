@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CQLResult>
+  <Group Name="Naming constraints" Status="Warn">
+    <Query NbNodeMatched="4" NbNodeTested="47" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsInterface&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;NameLike&lt;/font&gt;&amp;nbsp;&lt;font color='#A31515'&gt;"^I"&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsNested&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;a&amp;nbsp;non-nested&amp;nbsp;interface&amp;nbsp;should&amp;nbsp;begin&amp;nbsp;with&amp;nbsp;a&amp;nbsp;'I'&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># IL instructions</Column>
+      </Columns>
+      <Rows>
+        <Row Name="SprajaxSessionEventListener" FullName="DenimGroup.Sprajax.Engine.SprajaxSessionEventListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="WebServiceCallListener" FullName="DenimGroup.Sprajax.Engine.WebServiceCallListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="DocumentWorkerListener" FullName="Spider.Engine.DocumentWorkerListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="SpiderStatusListener" FullName="Spider.Engine.SpiderStatusListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="10" NbNodeTested="574" KindOfNode=" methods" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;NameLike&lt;/font&gt;&amp;nbsp;&lt;font color='#A31515'&gt;"^[A-Z]"&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000000'&gt;(&lt;/font&gt;&lt;font color='#000064'&gt;IsClassConstructor&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsConstructor&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;IsPropertyGetter&lt;/font&gt;&amp;nbsp;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsPropertySetter&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;IsIndexerGetter&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsIndexerSetter&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;IsEventAdder&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsEventRemover&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;IsOperator&lt;/font&gt;&lt;font color='#000000'&gt;)&lt;/font&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;a&amp;nbsp;regular&amp;nbsp;method&amp;nbsp;should&amp;nbsp;begin&amp;nbsp;with&amp;nbsp;an&amp;nbsp;Upper&amp;nbsp;letter.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># IL instructions</Column>
+      </Columns>
+      <Rows>
+        <Row Name="convertFilename(Uri)" FullName="Spider.Engine.DocumentWorker.convertFilename(Uri)">
+          <Val>164</Val>
+        </Row>
+        <Row Name="start()" FullName="Spider.Engine.DocumentWorker.start()">
+          <Val>14</Val>
+        </Row>
+        <Row Name="addURI(Uri)" FullName="Spider.Engine.Spider.addURI(Uri)">
+          <Val>32</Val>
+        </Row>
+        <Row Name="reset()" FullName="Spider.Engine.Spider.reset()">
+          <Val>11</Val>
+        </Row>
+        <Row Name="lstWebServices_SelectedIndexChanged(Object,EventArgs)" FullName="DenimGroup.Sprajax.Main.SessionResultsForm.lstWebServices_SelectedIndexChanged(Object,EventArgs)">
+          <Val>88</Val>
+        </Row>
+        <Row Name="lstMethods_SelectedIndexChanged(Object,EventArgs)" FullName="DenimGroup.Sprajax.Main.SessionResultsForm.lstMethods_SelectedIndexChanged(Object,EventArgs)">
+          <Val>88</Val>
+        </Row>
+        <Row Name="lstWebServiceEndpoint_SelectedIndexChanged(Object,EventArgs)" FullName="DenimGroup.Sprajax.Main.SessionResultsForm.lstWebServiceEndpoint_SelectedIndexChanged(Object,EventArgs)">
+          <Val>63</Val>
+        </Row>
+        <Row Name="btnDoIt_Click(Object,EventArgs)" FullName="DenimGroup.Sprajax.Main.SprajaxForm.btnDoIt_Click(Object,EventArgs)">
+          <Val>28</Val>
+        </Row>
+        <Row Name="btnFuzz_Click(Object,EventArgs)" FullName="DenimGroup.Sprajax.Main.SprajaxForm.btnFuzz_Click(Object,EventArgs)">
+          <Val>16</Val>
+        </Row>
+        <Row Name="btnShowResults_Click(Object,EventArgs)" FullName="DenimGroup.Sprajax.Main.SprajaxForm.btnShowResults_Click(Object,EventArgs)">
+          <Val>10</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>514</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>51.4</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>10</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>164</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>47.3</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>2241.4</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Code Quality constraints" Status="Warn">
+    <Query NbNodeMatched="5" NbNodeTested="287" KindOfNode=" methods" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbILInstructions&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;200&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbILInstructions&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;METHODS&amp;nbsp;WHERE&amp;nbsp;NbILInstructions&amp;nbsp;&amp;gt;&amp;nbsp;200&amp;nbsp;are&amp;nbsp;extremely&amp;nbsp;complex&amp;nbsp;and&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;should&amp;nbsp;be&amp;nbsp;split&amp;nbsp;in&amp;nbsp;smaller&amp;nbsp;methods&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;(except&amp;nbsp;if&amp;nbsp;they&amp;nbsp;are&amp;nbsp;automatically&amp;nbsp;generated&amp;nbsp;by&amp;nbsp;a&amp;nbsp;tool).&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># IL instructions</Column>
+      </Columns>
+      <Rows>
+        <Row Name="InitializeComponent()" FullName="DenimGroup.Sprajax.Main.SessionResultsForm.InitializeComponent()">
+          <Val>713</Val>
+        </Row>
+        <Row Name="RunFuzz()" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.RunFuzz()">
+          <Val>438</Val>
+        </Row>
+        <Row Name="InitializeComponent()" FullName="DenimGroup.Sprajax.Main.SprajaxForm.InitializeComponent()">
+          <Val>411</Val>
+        </Row>
+        <Row Name="BuildAssemblyFromWsdl(String)" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.BuildAssemblyFromWsdl(String)">
+          <Val>373</Val>
+        </Row>
+        <Row Name="Enumerate()" FullName="DenimGroup.Sprajax.Engine.WebServiceEnumerator.Enumerate()">
+          <Val>256</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>2191</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>438.2</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>256</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>713</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>150.8</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>22740.5</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="2" NbNodeTested="287" KindOfNode=" methods" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbVariables&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;15&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbVariables&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;METHODS&amp;nbsp;WHERE&amp;nbsp;NbVariables&amp;nbsp;&amp;gt;&amp;nbsp;8&amp;nbsp;are&amp;nbsp;hard&amp;nbsp;to&amp;nbsp;understand&amp;nbsp;and&amp;nbsp;maintain.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;METHODS&amp;nbsp;WHERE&amp;nbsp;NbVariables&amp;nbsp;&amp;gt;&amp;nbsp;15&amp;nbsp;are&amp;nbsp;extremely&amp;nbsp;complex&amp;nbsp;and&amp;nbsp;should&amp;nbsp;be&amp;nbsp;split&amp;nbsp;in&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;smaller&amp;nbsp;methods&amp;nbsp;(except&amp;nbsp;if&amp;nbsp;they&amp;nbsp;are&amp;nbsp;automatically&amp;nbsp;generated&amp;nbsp;by&amp;nbsp;a&amp;nbsp;tool).&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># Variables</Column>
+      </Columns>
+      <Rows>
+        <Row Name="BuildAssemblyFromWsdl(String)" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.BuildAssemblyFromWsdl(String)">
+          <Val>22</Val>
+        </Row>
+        <Row Name="Enumerate()" FullName="DenimGroup.Sprajax.Engine.WebServiceEnumerator.Enumerate()">
+          <Val>18</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>40</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>20</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>18</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>22</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>2</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>4</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="1" NbNodeTested="94" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbMethods&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;20&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;LCOM&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;TYPES&amp;nbsp;WHERE&amp;nbsp;NbMethods&amp;nbsp;&amp;gt;&amp;nbsp;20&amp;nbsp;might&amp;nbsp;be&amp;nbsp;hard&amp;nbsp;to&amp;nbsp;understand&amp;nbsp;and&amp;nbsp;maintain&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;but&amp;nbsp;there&amp;nbsp;might&amp;nbsp;be&amp;nbsp;cases&amp;nbsp;where&amp;nbsp;it&amp;nbsp;is&amp;nbsp;relevant&amp;nbsp;to&amp;nbsp;have&amp;nbsp;a&amp;nbsp;high&amp;nbsp;value&amp;nbsp;for&amp;nbsp;NbMethods.&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;For&amp;nbsp;example,&amp;nbsp;the&amp;nbsp;System.Windows.Forms.DataGridView&amp;nbsp;standard&amp;nbsp;class&amp;nbsp;has&amp;nbsp;more&amp;nbsp;than&amp;nbsp;1000&amp;nbsp;methods.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># Methods</Column>
+        <Column>Lack of Cohesion Of Methods (LCOM)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="DynamicWebServiceProxy" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy">
+          <Val>41</Val>
+          <Val>0.8517824</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>41</Val>
+          <Val>0.8517824</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>41</Val>
+          <Val>0.8517824</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>41</Val>
+          <Val>0.8517824</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>41</Val>
+          <Val>0.8517824</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+          <Val>0.0001466332</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+          <Val>2.15013E-08</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="1" NbNodeTested="47" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbFields&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;20&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsEnumeration&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;TYPES&amp;nbsp;WHERE&amp;nbsp;NbFields&amp;nbsp;&amp;gt;&amp;nbsp;20&amp;nbsp;AND&amp;nbsp;!IsEnumeration&amp;nbsp;might&amp;nbsp;be&amp;nbsp;hard&amp;nbsp;to&amp;nbsp;understand&amp;nbsp;and&amp;nbsp;maintain&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;but&amp;nbsp;there&amp;nbsp;might&amp;nbsp;be&amp;nbsp;cases&amp;nbsp;where&amp;nbsp;it&amp;nbsp;is&amp;nbsp;relevant&amp;nbsp;to&amp;nbsp;have&amp;nbsp;a&amp;nbsp;high&amp;nbsp;value&amp;nbsp;for&amp;nbsp;NbFields.&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;For&amp;nbsp;example,&amp;nbsp;the&amp;nbsp;System.Windows.Forms.Control&amp;nbsp;standard&amp;nbsp;class&amp;nbsp;has&amp;nbsp;more&amp;nbsp;than&amp;nbsp;200&amp;nbsp;fields.&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;The&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;metric&amp;nbsp;SizeOfInst&amp;nbsp;might&amp;nbsp;be&amp;nbsp;a&amp;nbsp;better&amp;nbsp;indicator&amp;nbsp;of&amp;nbsp;complex&amp;nbsp;type.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># Fields</Column>
+      </Columns>
+      <Rows>
+        <Row Name="SessionResultsForm" FullName="DenimGroup.Sprajax.Main.SessionResultsForm">
+          <Val>21</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>21</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>21</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>21</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>21</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="8" NbNodeTested="574" KindOfNode=" methods" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000000'&gt;(&lt;/font&gt;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;NbILInstructions&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;200&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;ILCyclomaticComplexity&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;50&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;NbParameters&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;5&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000064'&gt;NbVariables&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;8&lt;/b&gt;&lt;font color='#000000'&gt;)&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;Here&amp;nbsp;is&amp;nbsp;a&amp;nbsp;way&amp;nbsp;to&amp;nbsp;avoid&amp;nbsp;to&amp;nbsp;take&amp;nbsp;account&amp;nbsp;of&amp;nbsp;generated&amp;nbsp;methods.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;Another&amp;nbsp;way&amp;nbsp;would&amp;nbsp;be&amp;nbsp;to&amp;nbsp;use&amp;nbsp;the&amp;nbsp;SELECT&amp;nbsp;METHODS&amp;nbsp;FROM&amp;nbsp;or&amp;nbsp;SELECT&amp;nbsp;METHODS&amp;nbsp;OUT&amp;nbsp;OF&amp;nbsp;facilities.&lt;br/&gt;&lt;/font&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000000'&gt;(&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NameLike&lt;/font&gt;&amp;nbsp;&lt;font color='#A31515'&gt;"InitializeComponent"&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NameLike&lt;/font&gt;&amp;nbsp;&lt;font color='#A31515'&gt;"Generated"&lt;/font&gt;&lt;font color='#000000'&gt;)&lt;/font&gt;&amp;nbsp;</QueryHtml>
+      <Columns>
+        <Column># IL instructions</Column>
+        <Column>IL Cyclomatic Complexity (ILCC)</Column>
+        <Column># Parameters</Column>
+        <Column># Variables</Column>
+      </Columns>
+      <Rows>
+        <Row Name="RunFuzz()" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.RunFuzz()">
+          <Val>438</Val>
+          <Val>9</Val>
+          <Val>0</Val>
+          <Val>14</Val>
+        </Row>
+        <Row Name="RunFootprint()" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.RunFootprint()">
+          <Val>200</Val>
+          <Val>7</Val>
+          <Val>0</Val>
+          <Val>10</Val>
+        </Row>
+        <Row Name="Enumerate()" FullName="DenimGroup.Sprajax.Engine.WebServiceEnumerator.Enumerate()">
+          <Val>256</Val>
+          <Val>13</Val>
+          <Val>0</Val>
+          <Val>18</Val>
+        </Row>
+        <Row Name="ToString()" FullName="DenimGroup.Sprajax.Engine.Model.WebServiceCollection.ToString()">
+          <Val>148</Val>
+          <Val>10</Val>
+          <Val>0</Val>
+          <Val>9</Val>
+        </Row>
+        <Row Name="convertFilename(Uri)" FullName="Spider.Engine.DocumentWorker.convertFilename(Uri)">
+          <Val>164</Val>
+          <Val>8</Val>
+          <Val>1</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="GetPage()" FullName="Spider.Engine.DocumentWorker.GetPage()">
+          <Val>133</Val>
+          <Val>8</Val>
+          <Val>0</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="BuildAssemblyFromWsdl(String)" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.BuildAssemblyFromWsdl(String)">
+          <Val>373</Val>
+          <Val>15</Val>
+          <Val>1</Val>
+          <Val>22</Val>
+        </Row>
+        <Row Name="InvokeCall()" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.InvokeCall()">
+          <Val>99</Val>
+          <Val>4</Val>
+          <Val>0</Val>
+          <Val>9</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>1811</Val>
+          <Val>74</Val>
+          <Val>2</Val>
+          <Val>104</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>226.4</Val>
+          <Val>9.2</Val>
+          <Val>0.25</Val>
+          <Val>13</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>99</Val>
+          <Val>4</Val>
+          <Val>0</Val>
+          <Val>9</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>438</Val>
+          <Val>15</Val>
+          <Val>1</Val>
+          <Val>22</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>113.4</Val>
+          <Val>3.2</Val>
+          <Val>0.4330127</Val>
+          <Val>4.4</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>12854.2</Val>
+          <Val>10.4</Val>
+          <Val>0.1875</Val>
+          <Val>19.5</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="1" NbNodeTested="94" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;SizeOfInst&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;64&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;SizeOfInst&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;TYPES&amp;nbsp;WHERE&amp;nbsp;SizeOfInst&amp;nbsp;&amp;gt;&amp;nbsp;64&amp;nbsp;might&amp;nbsp;degrade&amp;nbsp;performance&amp;nbsp;(depending&amp;nbsp;on&amp;nbsp;the&amp;nbsp;number&amp;nbsp;of&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;instances&amp;nbsp;created&amp;nbsp;at&amp;nbsp;runtime)&amp;nbsp;and&amp;nbsp;might&amp;nbsp;be&amp;nbsp;hard&amp;nbsp;to&amp;nbsp;maintain.&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;However&amp;nbsp;it&amp;nbsp;is&amp;nbsp;not&amp;nbsp;a&amp;nbsp;rule&amp;nbsp;since&amp;nbsp;sometime&amp;nbsp;there&amp;nbsp;is&amp;nbsp;no&amp;nbsp;alternative&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;(the&amp;nbsp;size&amp;nbsp;of&amp;nbsp;instances&amp;nbsp;of&amp;nbsp;the&amp;nbsp;System.Net.NetworkInformation.SystemIcmpV6Statistics&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;standard&amp;nbsp;class&amp;nbsp;is&amp;nbsp;2064&amp;nbsp;bytes).&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>Size of instance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="SessionResultsForm" FullName="DenimGroup.Sprajax.Main.SessionResultsForm">
+          <Val>84</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>84</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>84</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>84</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>84</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="1" NbNodeTested="47" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;LCOM&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0.8&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbFields&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NbMethods&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;LCOM&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;TYPES&amp;nbsp;WHERE&amp;nbsp;LCOM&amp;nbsp;&amp;gt;&amp;nbsp;0.8&amp;nbsp;AND&amp;nbsp;NbFields&amp;nbsp;&amp;gt;&amp;nbsp;10&amp;nbsp;AND&amp;nbsp;NbMethods&amp;nbsp;&amp;gt;10&amp;nbsp;might&amp;nbsp;be&amp;nbsp;problematic.&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;However,&amp;nbsp;it&amp;nbsp;is&amp;nbsp;very&amp;nbsp;hard&amp;nbsp;to&amp;nbsp;avoid&amp;nbsp;such&amp;nbsp;non-cohesive&amp;nbsp;types.&amp;nbsp;The&amp;nbsp;LCOMHS&amp;nbsp;metric&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;is&amp;nbsp;often&amp;nbsp;considered&amp;nbsp;as&amp;nbsp;more&amp;nbsp;efficient&amp;nbsp;to&amp;nbsp;detect&amp;nbsp;non-cohesive&amp;nbsp;types.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>Lack of Cohesion Of Methods (LCOM)</Column>
+        <Column># Fields</Column>
+        <Column># Methods</Column>
+      </Columns>
+      <Rows>
+        <Row Name="DynamicWebServiceProxy" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy">
+          <Val>0.8517824</Val>
+          <Val>14</Val>
+          <Val>41</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>0.8517824</Val>
+          <Val>14</Val>
+          <Val>41</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0.8517824</Val>
+          <Val>14</Val>
+          <Val>41</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0.8517824</Val>
+          <Val>14</Val>
+          <Val>41</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>0.8517824</Val>
+          <Val>14</Val>
+          <Val>41</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.0001466332</Val>
+          <Val>0</Val>
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>2.15013E-08</Val>
+          <Val>0</Val>
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="22" NbNodeTested="287" KindOfNode=" methods" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Percentage&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;5&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsUsingBoxing&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsUsingUnboxing&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;With&amp;nbsp;generics,&amp;nbsp;boxing&amp;nbsp;and&amp;nbsp;unboxing&amp;nbsp;should&amp;nbsp;be&amp;nbsp;very&amp;nbsp;rare.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># IL instructions</Column>
+      </Columns>
+      <Rows>
+        <Row Name="RunFuzz()" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.RunFuzz()">
+          <Val>438</Val>
+        </Row>
+        <Row Name="RunFootprint()" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.RunFootprint()">
+          <Val>200</Val>
+        </Row>
+        <Row Name="HandleCall(Method,Object[],String,String,Exception)" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.HandleCall(Method,Object[],String,String,Exception)">
+          <Val>178</Val>
+        </Row>
+        <Row Name="FoundFrameworkEvent(Framework)" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.FoundFrameworkEvent(Framework)">
+          <Val>75</Val>
+        </Row>
+        <Row Name="FoundWebServiceCollectionEvent(Uri)" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.FoundWebServiceCollectionEvent(Uri)">
+          <Val>65</Val>
+        </Row>
+        <Row Name="JavaScriptEvent(Uri)" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.JavaScriptEvent(Uri)">
+          <Val>65</Val>
+        </Row>
+        <Row Name="get_Results()" FullName="DenimGroup.Sprajax.Engine.SprajaxSession.get_Results()">
+          <Val>45</Val>
+        </Row>
+        <Row Name="ToString()" FullName="DenimGroup.Sprajax.Engine.Model.Framework.ToString()">
+          <Val>12</Val>
+        </Row>
+        <Row Name="Process()" FullName="Spider.Engine.DocumentWorker.Process()">
+          <Val>101</Val>
+        </Row>
+        <Row Name="ParseTag()" FullName="Spider.Engine.ParseHTML.ParseTag()">
+          <Val>190</Val>
+        </Row>
+        <Row Name="BuildTag()" FullName="Spider.Engine.ParseHTML.BuildTag()">
+          <Val>160</Val>
+        </Row>
+        <Row Name="ParseAttributeValue()" FullName="Spider.Engine.Parse.ParseAttributeValue()">
+          <Val>131</Val>
+        </Row>
+        <Row Name="ParseAttributeName()" FullName="Spider.Engine.Parse.ParseAttributeName()">
+          <Val>52</Val>
+        </Row>
+        <Row Name="ObtainWork()" FullName="Spider.Engine.Spider.ObtainWork()">
+          <Val>116</Val>
+        </Row>
+        <Row Name="addURI(Uri)" FullName="Spider.Engine.Spider.addURI(Uri)">
+          <Val>32</Val>
+        </Row>
+        <Row Name="BuildAssemblyFromWsdl(String)" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.BuildAssemblyFromWsdl(String)">
+          <Val>373</Val>
+        </Row>
+        <Row Name="get_Timeout()" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.get_Timeout()">
+          <Val>19</Val>
+        </Row>
+        <Row Name="set_Timeout(Int32)" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy.set_Timeout(Int32)">
+          <Val>16</Val>
+        </Row>
+        <Row Name="RegisterSoapExtension(Type,Int32,PriorityGroup)" FullName="Thinktecture.Tools.Web.Services.Helpers.PipelineConfiguration.RegisterSoapExtension(Type,Int32,PriorityGroup)">
+          <Val>76</Val>
+        </Row>
+        <Row Name="ProcessMessage(SoapMessage)" FullName="Thinktecture.Tools.Web.Services.Extensions.SoapMessageAccessClientExtension.ProcessMessage(SoapMessage)">
+          <Val>34</Val>
+        </Row>
+        <Row Name="GetInitializer(Type)" FullName="Thinktecture.Tools.Web.Services.Extensions.SoapMessageAccessClientExtension.GetInitializer(Type)">
+          <Val>23</Val>
+        </Row>
+        <Row Name="Initialize(Object)" FullName="Thinktecture.Tools.Web.Services.Extensions.SoapMessageAccessClientExtension.Initialize(Object)">
+          <Val>6</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>2407</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>109.4</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>6</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>438</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>110.8</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>12268.8</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="9" NbNodeTested="47" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Percentage&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;5&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsUsingBoxing&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;IsUsingUnboxing&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;With&amp;nbsp;generics,&amp;nbsp;boxing&amp;nbsp;and&amp;nbsp;unboxing&amp;nbsp;should&amp;nbsp;be&amp;nbsp;very&amp;nbsp;rare.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column># IL instructions</Column>
+      </Columns>
+      <Rows>
+        <Row Name="SprajaxSession" FullName="DenimGroup.Sprajax.Engine.SprajaxSession">
+          <Val>1218</Val>
+        </Row>
+        <Row Name="Framework" FullName="DenimGroup.Sprajax.Engine.Model.Framework">
+          <Val>57</Val>
+        </Row>
+        <Row Name="DocumentWorker" FullName="Spider.Engine.DocumentWorker">
+          <Val>683</Val>
+        </Row>
+        <Row Name="ParseHTML" FullName="Spider.Engine.ParseHTML">
+          <Val>458</Val>
+        </Row>
+        <Row Name="Parse" FullName="Spider.Engine.Parse">
+          <Val>359</Val>
+        </Row>
+        <Row Name="Spider" FullName="Spider.Engine.Spider">
+          <Val>306</Val>
+        </Row>
+        <Row Name="DynamicWebServiceProxy" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.DynamicWebServiceProxy">
+          <Val>1324</Val>
+        </Row>
+        <Row Name="PipelineConfiguration" FullName="Thinktecture.Tools.Web.Services.Helpers.PipelineConfiguration">
+          <Val>101</Val>
+        </Row>
+        <Row Name="SoapMessageAccessClientExtension" FullName="Thinktecture.Tools.Web.Services.Extensions.SoapMessageAccessClientExtension">
+          <Val>307</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>4813</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>534.8</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>57</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1324</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>430.6</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>185453.7</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="4" NbNodeTested="6" KindOfNode=" assemblies" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Percentage&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;15&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ASSEMBLIES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NormDistFromMainSeq&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0.7&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;NormDistFromMainSeq&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>Normalized distance from main sequence</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Thinktecture.Tools.Web.Services.Extensions.Messages" FullName="Thinktecture.Tools.Web.Services.Extensions.Messages">
+          <Val>1</Val>
+        </Row>
+        <Row Name="DenimGroup.Sprajax.Main.vshost" FullName="DenimGroup.Sprajax.Main.vshost">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Spider.Engine" FullName="Spider.Engine">
+          <Val>0.8333333</Val>
+        </Row>
+        <Row Name="Thinktecture.Tools.Web.Services.DynamicProxy" FullName="Thinktecture.Tools.Web.Services.DynamicProxy">
+          <Val>0.75</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>3.6</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0.8958333</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0.75</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.1082533</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0.01171878</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="4" NbNodeTested="12" KindOfNode=" assemblies" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ASSEMBLIES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;RelationalCohesion&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;lt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;1.5&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;RelationalCohesion&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;4.0&lt;/b&gt;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;As&amp;nbsp;classes&amp;nbsp;inside&amp;nbsp;an&amp;nbsp;assembly&amp;nbsp;should&amp;nbsp;be&amp;nbsp;strongly&amp;nbsp;related,&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;the&amp;nbsp;cohesion&amp;nbsp;should&amp;nbsp;be&amp;nbsp;high.&amp;nbsp;On&amp;nbsp;the&amp;nbsp;other&amp;nbsp;hand,&amp;nbsp;a&amp;nbsp;value&amp;nbsp;which&amp;nbsp;is&amp;nbsp;too&amp;nbsp;high&amp;nbsp;may&amp;nbsp;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;nbsp;indicate&amp;nbsp;over-coupling.&amp;nbsp;A&amp;nbsp;good&amp;nbsp;range&amp;nbsp;for&amp;nbsp;RelationalCohesion&amp;nbsp;is&amp;nbsp;1.5&amp;nbsp;to&amp;nbsp;4.0.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>Relational cohesion</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Thinktecture.Tools.Web.Services.DynamicProxy" FullName="Thinktecture.Tools.Web.Services.DynamicProxy">
+          <Val>0.8333333</Val>
+        </Row>
+        <Row Name="DenimGroup.Sprajax.Main" FullName="DenimGroup.Sprajax.Main">
+          <Val>0.6</Val>
+        </Row>
+        <Row Name="Thinktecture.Tools.Web.Services.Extensions.Messages" FullName="Thinktecture.Tools.Web.Services.Extensions.Messages">
+          <Val>0.75</Val>
+        </Row>
+        <Row Name="DenimGroup.Sprajax.Main.vshost" FullName="DenimGroup.Sprajax.Main.vshost">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>3.2</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0.7958333</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0.6</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.1445177</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0.02088536</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Design constraints" Status="Warn">
+    <Query NbNodeMatched="19" NbNodeTested="47" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;SizeOfInst&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;==&lt;/font&gt;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsStatic&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsGeneric&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&lt;font color='#008000'&gt;//&amp;nbsp;It&amp;nbsp;indicate&amp;nbsp;stateless&amp;nbsp;types&amp;nbsp;that&amp;nbsp;might&amp;nbsp;eventually&amp;nbsp;be&amp;nbsp;turned&amp;nbsp;into&amp;nbsp;static&amp;nbsp;classes.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>Size of instance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="FrameworkDetection" FullName="DenimGroup.Sprajax.Engine.FrameworkDetection">
+          <Val>0</Val>
+        </Row>
+        <Row Name="SprajaxSessionEventListener" FullName="DenimGroup.Sprajax.Engine.SprajaxSessionEventListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="WebServiceCallListener" FullName="DenimGroup.Sprajax.Engine.WebServiceCallListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="ConsoleSpiderStatusListener" FullName="Spider.Engine.ConsoleSpiderStatusListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="DocumentWorkerListener" FullName="Spider.Engine.DocumentWorkerListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="SpiderStatusListener" FullName="Spider.Engine.SpiderStatusListener">
+          <Val>0</Val>
+        </Row>
+        <Row Name="CompiledAssemblyCache" FullName="Thinktecture.Tools.Web.Services.DynamicProxy.CompiledAssemblyCache">
+          <Val>0</Val>
+        </Row>
+        <Row Name="WsdlHelper" FullName="Thinktecture.Tools.Web.Services.Helpers.WsdlHelper">
+          <Val>0</Val>
+        </Row>
+        <Row Name="PipelineConfiguration" FullName="Thinktecture.Tools.Web.Services.Helpers.PipelineConfiguration">
+          <Val>0</Val>
+        </Row>
+        <Row Name="InvocationException" FullName="Thinktecture.Tools.Web.Services.InvocationException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="DynamicCompilationException" FullName="Thinktecture.Tools.Web.Services.DynamicCompilationException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="PipelineConfigurationException" FullName="Thinktecture.Tools.Web.Services.PipelineConfigurationException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="WsdlFormatException" FullName="Thinktecture.Tools.Web.Services.WsdlFormatException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="TemporaryCacheException" FullName="Thinktecture.Tools.Web.Services.TemporaryCacheException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="ProxyTypeInstantiationException" FullName="Thinktecture.Tools.Web.Services.ProxyTypeInstantiationException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Resources" FullName="DenimGroup.Sprajax.Main.Properties.Resources">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Settings" FullName="DenimGroup.Sprajax.Main.Properties.Settings">
+          <Val>0</Val>
+        </Row>
+        <Row Name="MessageStorageException" FullName="Thinktecture.Tools.Web.Services.MessageStorageException">
+          <Val>0</Val>
+        </Row>
+        <Row Name="EntryPoint" FullName="Microsoft.VisualStudio.HostingProcess.EntryPoint">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query NbNodeMatched="3" NbNodeTested="47" KindOfNode=" types" Status="Warn">
+      <QueryHtml>&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;DepthOfInheritance&lt;/font&gt;&amp;nbsp;&lt;font color='#000000'&gt;&amp;gt;=&lt;/font&gt;&amp;nbsp;&lt;b style="color:#000000;background-color:#FFFF99"&gt;6&lt;/b&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;nbsp;&lt;font color='#000064'&gt;DepthOfInheritance&lt;/font&gt;&amp;nbsp;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&lt;font color='#008000'&gt;//&amp;nbsp;Branches&amp;nbsp;too&amp;nbsp;long&amp;nbsp;in&amp;nbsp;the&amp;nbsp;derivation&amp;nbsp;should&amp;nbsp;be&amp;nbsp;avoided.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>Depth of inheritance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="SprajaxForm" FullName="DenimGroup.Sprajax.Main.SprajaxForm">
+          <Val>7</Val>
+        </Row>
+        <Row Name="SessionResultsForm" FullName="DenimGroup.Sprajax.Main.SessionResultsForm">
+          <Val>7</Val>
+        </Row>
+        <Row Name="SoapHttpClientProtocolExtended" FullName="Thinktecture.Tools.Web.Services.Extensions.SoapHttpClientProtocolExtended">
+          <Val>6</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>20</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>6.7</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>6</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>7</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.4714068</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0.2222243</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Constraints extracted from code" Status="Ok" />
+</CQLResult>

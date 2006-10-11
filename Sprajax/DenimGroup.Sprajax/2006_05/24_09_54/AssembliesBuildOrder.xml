@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssemblySortForCompilOrObfusk>
+  <Assembly Name="Spider.Engine">1</Assembly>
+  <Assembly Name="Thinktecture.Tools.Web.Services.Extensions.Messages">2</Assembly>
+  <Assembly Name="Thinktecture.Tools.Web.Services.DynamicProxy">3</Assembly>
+  <Assembly Name="DenimGroup.Sprajax.Engine">4</Assembly>
+  <Assembly Name="DenimGroup.Sprajax.Main.vshost">5</Assembly>
+  <Assembly Name="DenimGroup.Sprajax.Main">6</Assembly>
+</AssemblySortForCompilOrObfusk>

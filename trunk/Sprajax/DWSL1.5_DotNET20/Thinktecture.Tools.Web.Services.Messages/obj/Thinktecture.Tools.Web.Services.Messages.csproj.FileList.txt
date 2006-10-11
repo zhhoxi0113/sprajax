@@ -1,0 +1,5 @@
+bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.dll
+bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.dll
+obj\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.pdb

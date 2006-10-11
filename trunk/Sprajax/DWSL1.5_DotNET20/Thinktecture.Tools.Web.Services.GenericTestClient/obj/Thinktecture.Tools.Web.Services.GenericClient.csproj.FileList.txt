@@ -1,0 +1,17 @@
+bin\Debug\Thinktecture.Tools.Web.Services.GenericClient.exe.config
+bin\Debug\Thinktecture.Tools.Web.Services.GenericClient.exe
+bin\Debug\Thinktecture.Tools.Web.Services.GenericClient.pdb
+bin\Debug\Thinktecture.Tools.Web.Services.DynamicProxy.dll
+bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.dll
+bin\Debug\Thinktecture.Tools.Web.Services.Extensions.Messages.pdb
+bin\Debug\Thinktecture.Tools.Web.Services.DynamicProxy.pdb
+bin\Debug\Interop.SHDocVw.dll
+bin\Debug\AxInterop.SHDocVw.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.SHDocVw.dll
+obj\Debug\AxInterop.SHDocVw.dll
+obj\Debug\Thinktecture.Tools.Web.Services.GenericClient.csproj.ResolveComReference.cache
+obj\Debug\Thinktecture.Tools.Web.Services.TestClient.TesterForm.resources
+obj\Debug\Thinktecture.Tools.Web.Services.GenericClient.csproj.GenerateResource.Cache
+obj\Debug\Thinktecture.Tools.Web.Services.GenericClient.exe
+obj\Debug\Thinktecture.Tools.Web.Services.GenericClient.pdb

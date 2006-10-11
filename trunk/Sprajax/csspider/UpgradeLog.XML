@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Spider">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\dcornell\Desktop\csspider\Spider.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\dcornell\Desktop\csspider\Spider.suo">
+</Property><Property Name="Date" Value="Tuesday, February 21, 2006">
+</Property><Property Name="Time" Value="11:32 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Spider.sln" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Spider.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Spider.suo" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Spider.suo">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Spider.csproj" Description="Project file successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Spider.csproj">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Spider.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Spider.csproj.user">
+</Event><Event ErrorLevel="0" Project="Spider" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Attribute.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Attribute.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="AttributeList.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\AttributeList.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="DocumentWorker.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\DocumentWorker.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Done.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Done.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Parse.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Parse.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="ParseHTML.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\ParseHTML.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Spider.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\Spider.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="SpiderForm.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\SpiderForm.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="TestSpider.cs" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\TestSpider.cs">
+</Event><Event ErrorLevel="0" Project="Spider" Source="App.ico" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Spider" Source="SpiderForm.resx" Description="File successfully backed up as C:\Documents and Settings\dcornell\Desktop\csspider\Backup\SpiderForm.resx">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Spider.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Spider" Source="Spider.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Spider.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Spider.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Spider" Source="Spider.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

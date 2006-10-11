@@ -1,0 +1,9 @@
+bin\Debug\Spider.exe
+bin\Debug\Spider.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Spider.SpiderForm.resources
+obj\Debug\Spider.csproj.GenerateResource.Cache
+obj\Debug\Spider.exe
+obj\Debug\Spider.pdb
+bin\Debug\Spider.Engine.dll
+bin\Debug\Spider.Engine.pdb

@@ -9,7 +9,7 @@ namespace DenimGroup.Sprajax.Main
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
+        [MTAThread]
         static void Main()
         {
             Application.EnableVisualStyles();

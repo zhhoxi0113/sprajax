@@ -28,10 +28,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Spider.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Spider.Engine\bin\Debug\Spider.Engine.dll</HintPath>
-    </Reference>
+    <Reference Include="Spider.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -86,6 +83,10 @@
       <Project>{63834CC9-D98A-4C14-948F-7061D7C39ED1}</Project>
       <Name>DenimGroup.Sprajax.Engine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BinaryReferences\Spider.Engine.dll" />
+    <Content Include="BinaryReferences\Spider.Engine.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

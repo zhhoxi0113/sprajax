@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<AssembliesMetrics>
-  <Assembly Assembly="DenimGroup.Sprajax.Engine" NTypes="13" NAbstractTypes="2" NILInstructionInAsm="2701" AfferentCoupling="2" EfferentCoupling="8" RelationalCohesion="2.46" Instability="0.8" Abstractness="0.15" DistFrMainSeq="0.03" NormDistFrMainSeq="0.05" />
-  <Assembly Assembly="Thinktecture.Tools.Web.Services.Extensions.Messages" NTypes="4" NAbstractTypes="0" NILInstructionInAsm="414" AfferentCoupling="1" EfferentCoupling="0" RelationalCohesion="0.75" Instability="0" Abstractness="0" DistFrMainSeq="0.71" NormDistFrMainSeq="1" />
-  <Assembly Assembly="Thinktecture.Tools.Web.Services.DynamicProxy" NTypes="12" NAbstractTypes="0" NILInstructionInAsm="1940" AfferentCoupling="3" EfferentCoupling="1" RelationalCohesion="0.83" Instability="0.25" Abstractness="0" DistFrMainSeq="0.53" NormDistFrMainSeq="0.75" />
-  <Assembly Assembly="Spider.Engine" NTypes="12" NAbstractTypes="2" NILInstructionInAsm="2258" AfferentCoupling="2" EfferentCoupling="0" RelationalCohesion="2" Instability="0" Abstractness="0.17" DistFrMainSeq="0.59" NormDistFrMainSeq="0.83" />
-  <Assembly Assembly="DenimGroup.Sprajax.Main.vshost" NTypes="1" NAbstractTypes="0" NILInstructionInAsm="14" AfferentCoupling="0" EfferentCoupling="0" RelationalCohesion="1" Instability="0" Abstractness="0" DistFrMainSeq="0.71" NormDistFrMainSeq="1" />
-  <Assembly Assembly="DenimGroup.Sprajax.Main" NTypes="5" NAbstractTypes="1" NILInstructionInAsm="1672" AfferentCoupling="0" EfferentCoupling="5" RelationalCohesion="0.6" Instability="1" Abstractness="0.2" DistFrMainSeq="0.14" NormDistFrMainSeq="0.2" />
-</AssembliesMetrics>

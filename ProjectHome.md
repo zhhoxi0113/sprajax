@@ -1,0 +1,1 @@
+Sprajax is an open source black box scanner for AJAX-enabled applications.
